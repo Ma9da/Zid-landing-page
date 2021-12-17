@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
+:root {
+  --primary: #8d5da7 !important;
+  --secondary: #fdb515 !important;
+  --main-font: #000000 !important;
+  --bg-light:#fafafced !important;
+  --bg-light-gray:#F7F7F7;
+}
+body {
+    font-family: "Cairo", sans-serif;
+}
