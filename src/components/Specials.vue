@@ -94,9 +94,9 @@
         </div>
       </div>
     <div class="col-12 py-3 text-center">
-      <button class="btn action-btn">
+      <button class="btn transp-action-btn">
         تصفح التطبيقات
-        <img src="../assets/icons/DownArrow 3.svg" alt="" />
+        <img src="../assets/icons/DownArrow 3.svg" class="animation-arrow" alt="" />
       </button>
     </div>
     </div>
@@ -106,9 +106,6 @@
 <script>
 export default {
   name: "Specials",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
@@ -142,7 +139,7 @@ h5 {
 .app-logo {
   height: max-content;
 }
-.action-btn{
+.transp-action-btn{
   color: var(--secondary);
 }
 </style>

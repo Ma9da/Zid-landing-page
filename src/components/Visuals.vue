@@ -1,14 +1,16 @@
 <template>
-  <div class="container">
+  <div class="container py-5 my-5">
     <div class="row justify-content-center">
-      <div class="col-lg-8 my-5">
-        <div class="card border-0 my-5 position-relative">
+      <div class="col-lg-8 col-md-12">
+        <div class="card border-0  position-relative">
           <div class="card-body">
-            <img
-              class="w-100 d-block"
-              src="../assets/img/products(1).png"
-              alt=""
-            />
+            <div class="img-sizing ">
+              <img
+              class="w-100 d-block img-ridus"
+                src="https://s3-alpha-sig.figma.com/img/7fd9/1c66/9d22e51e16561f96575713284c465150?Expires=1640563200&Signature=Y~mvHCV3wwvjdnTdmDRvn8cY1wE-SWIZbs4JfgVr6l4aaX3J97ZlwKnnf~QVPCqqXBj9f3OYkkcFfITqPpouqOyUZ6za-e3VtkQFXpBZp-QJf~OxWiSN2uLjpud-3F1rogQUzkdpzcZGuDfn4yclghJ3onlbshq9a~FtoBUltEMbvCsDzsUedUytIE2FEeA14g5ccWkqjL-qtQjkFZTTpv12OGsfvlYnlUf1XP8XWnT4wXI3mMQll9zuUAwyGwSOmqCgiWQ17mgHm~-ITVmx2-QjuF97yeWw377RtLEG7xsDIBe1GDIBjHjEaKBzHhl3vxIc54Z0jIyv-1p1AHHpVQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                alt=""
+              />
+            </div>
           </div>
           <img
             src="../assets/img/Dot Pattern 2.png"
@@ -29,9 +31,6 @@
 <script>
 export default {
   name: "Visuals",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
@@ -53,5 +52,19 @@ export default {
   width: 367.3203125px;
   right: -67px;
   top: 275px;
+}
+.img-sizing {
+  width: auto;
+  height: 549.29px;
+  border-radius: 40px;
+  overflow:hidden;
+}
+@media (max-width: 767.98px) { 
+  .img-sizing{
+    height:auto;
+  }
+ }
+.img-ridus{
+  border-radius:40px;
 }
 </style>

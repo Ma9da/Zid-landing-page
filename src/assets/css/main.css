@@ -9,3 +9,23 @@
 body {
     font-family: "Cairo", sans-serif;
 }
+.action-btn{
+  height: 60px;
+  width: 295px;
+  font-weight:700;
+background: var(--primary);
+color: var(--secondary);
+border-radius: 10px;
+font-size: 18px;
+}
+.animation-arrow{
+  position: relative;
+  animation-name: arrow;
+  animation-duration: .4s;
+  animation-iteration-count: infinite;
+}
+@keyframes arrow {
+  0%   {left:0px; top:0px;}
+  25%  { left:2px; top:0px;}
+  100% {left:0px; top:0px;}
+}

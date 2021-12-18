@@ -68,14 +68,14 @@ footer {
   background: var(--secondary);
 }
 .floating-btns-arrow {
-  bottom: 46px;
-  left: 138px;
+  bottom:7%;
+  left: 11%;
   color: var(--primary);
   background: var(--secondary);
 }
 .floating-btns-chat{
-   bottom: 46px;
-  right: 138px;
+  bottom: 7%;
+  right: 11%;
   color: var(--primary);
   background: var(--secondary);
 }

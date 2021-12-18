@@ -11,7 +11,7 @@
         </p>
         <button class="btn action-btn ">
           تصفح التطبيقات
-          <img src="../assets/icons/DownArrow 3.svg" alt="" />
+          <img src="../assets/icons/DownArrow 3.svg" class="animation-arrow"  alt="" />
         </button>
       </div>
     </div>
@@ -21,9 +21,6 @@
 <script>
 export default {
   name: "Hero-section",
-  //   props: {
-  //     msg: String,
-  //   },
 };
 </script>
 
@@ -37,12 +34,7 @@ h1 {
 p {
   font-size: 18px;
 }
-.action-btn {
-    height: 60px;
-    width: 295px;
-  background: var(--primary);
-  color: var(--secondary);
-  border-radius: 10px;
-  font-size: 18px;
-}
+
+
+
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="service py-5">
     <div class="container">
-      <div class="row justify-content-center align-items-center py-5">
+      <div class="row justify-content-center align-items-center ">
         <div class="col-lg-5 col-md-6">
           <h2>كل ما تحتاجه لنمو متجرك في مكان واحد</h2>
           <p class="py-3">
@@ -30,7 +30,7 @@
             <div class="listed-item">
               <button class="btn action-btn">
                 تصفح التطبيقات
-                <img src="../assets/icons/DownArrow 3.svg" alt="" />
+                <img src="../assets/icons/DownArrow 3.svg" class="animation-arrow" alt="" />
               </button>
             </div>
           </div>
@@ -40,7 +40,7 @@
             <div class="card-body">
               <img
                 src="https://app-market.s3.eu-west-1.amazonaws.com/zidapp_1-min.gif"
-                class="w-100 d-block rounded-5"
+                class="w-100 d-block img-ridus"
                 alt=""
               />
               <img
@@ -90,26 +90,21 @@ p {
 .card {
   background-color: var(--bg-light);
 }
-.action-btn {
-  height: 60px;
-  width: 295px;
-  background: var(--primary);
-  color: var(--secondary);
-  border-radius: 10px;
-  font-size: 18px;
-}
 .pattern {
   position: absolute;
   top: -15px;
-  left: -5px;
+  left: -25px;
   z-index: -1;
 }
 .circle-shape {
   position: absolute;
-  top: 108px;
-  right: -23px;
+  top: 73px;
+  right: -34px;
   z-index: -1;
   width: 367.32px;
   height: 367.32px;
+}
+.img-ridus{
+  border-radius: 10px;
 }
 </style>
