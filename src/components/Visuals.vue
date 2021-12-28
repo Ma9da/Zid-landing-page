@@ -7,7 +7,7 @@
             <div class="img-sizing ">
               <img
               class="w-100 d-block img-ridus"
-                src="https://s3-alpha-sig.figma.com/img/7fd9/1c66/9d22e51e16561f96575713284c465150?Expires=1640563200&Signature=Y~mvHCV3wwvjdnTdmDRvn8cY1wE-SWIZbs4JfgVr6l4aaX3J97ZlwKnnf~QVPCqqXBj9f3OYkkcFfITqPpouqOyUZ6za-e3VtkQFXpBZp-QJf~OxWiSN2uLjpud-3F1rogQUzkdpzcZGuDfn4yclghJ3onlbshq9a~FtoBUltEMbvCsDzsUedUytIE2FEeA14g5ccWkqjL-qtQjkFZTTpv12OGsfvlYnlUf1XP8XWnT4wXI3mMQll9zuUAwyGwSOmqCgiWQ17mgHm~-ITVmx2-QjuF97yeWw377RtLEG7xsDIBe1GDIBjHjEaKBzHhl3vxIc54Z0jIyv-1p1AHHpVQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+              src="https://s3-alpha-sig.figma.com/img/7fd9/1c66/9d22e51e16561f96575713284c465150?Expires=1641772800&Signature=Q8NVUlCr--wJFAZy25ZuNLiOVolr7ZLzbHNto9~rvcfs6gPYi6owOv-ogLSMAe1-zoIwYJx1QIxQ~oU~OHNtnj6L99qtGUnNjFweBcQh~ivJrxcr13vEHAlaDuymKbb8sFXpz3ezhsoHV2DMLMBn~fZmtFSJ-Ef1hACC7o-DhP6PIHKqWZhbeQzp9lGaSZNoNrN18iuxQFWOMSsdpHRGuXVgjMziP~QMGxYbfQqEFsrLa~lC2iSWCpNl~E~~mjA1UseWZQ3mTZOpMbqnVcYX1am2JQS~IQuq6JimBgDJW2eir~TztwVEw0PJfk-ity1Xt3mP22NVYlAPRUkXuAYbKg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
                 alt=""
               />
             </div>
